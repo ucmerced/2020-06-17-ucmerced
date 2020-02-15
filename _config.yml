@@ -70,7 +70,7 @@ swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
 workshop_repo: "https://github.com/ucmerced/2020-03-23-ucmerced"
-workshop_site: "https://ucmerced.github.io/2020-03-23-ucmerced"
+workshop_site: "https://carpentries.github.io/2020-03-23-ucmerced"
 
 # Surveys.
 pre_survey: "https://carpentries.typeform.com/to/wi32rS?slug="
