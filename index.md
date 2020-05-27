@@ -1,17 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "UC Merced"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Granite Pass 125, 5200 N. Lake Road, Merced, CA 95343"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: ""      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latitude: "37.363216"     # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "120.425643"    # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: ""     # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: ""    # decimal longitude of the workshop venue (use https://www.latlong.net)
+remote: "True"
 humandate: "June 17-19, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-06-17      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-06-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Sarvani Chadalapaka", "Derek Devnich", "Elizabeth Salmon"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Jasper Toscani Field", "Erin Mutch", "Andrea Sánchez-Tapia", "Derek Solberger"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Sarvani Chadalapaka", "Derek Devnich", "Akshay Paropkari", "Elizabeth Salmon", "Rhondene Wint"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Erin Mutch"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["ddevnich@ucmerced.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: "https://pad.carpentries.org/2020-06-17-ucmerced"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -115,6 +116,20 @@ address.
 </p>
 {% endif %}
 
+{% if page.remote %}
+<p id="where">
+    <strong>Join Zoom Meeting:</strong>
+        <a href="https://ucmerced.zoom.us/j/91986001511?pwd=RzhlWjFDN3RFeWRpUEpEbDJSaWE3UT09"></a>
+    <p>
+    Meeting ID: 919 8600 1511<br>
+    Password: python<br>
+    One tap mobile<br>
+    +16699006833,,91986001511# US (San Jose)<br>
+    +13462487799,,91986001511# US (Houston)<br>
+    </p>
+</p>
+{% endif %}
+
 {% comment %}
 DATE
 
@@ -147,12 +162,12 @@ special instructions.
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
-  The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
+<!--   The workshop organizers have checked that: -->
+<!-- </p> -->
+<!-- <ul> -->
+<!--   <li>The room is wheelchair / scooter accessible.</li> -->
+<!--   <li>Accessible restrooms are available.</li> -->
+<!-- </ul> -->
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
@@ -316,7 +331,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described at the link.
+  you will need to install Python and SQLite Browser (we will not be covering spreadsheets or OpenRefine in this session).
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
