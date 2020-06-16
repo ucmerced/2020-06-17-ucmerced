@@ -218,6 +218,13 @@ Everyone who participates in Carpentries activities is required to conform to th
 </p>
 <hr/>
 
+<h2 id="recording-notice">Recording Notice</h2>
+<p>
+    This workshop is being conducted over Zoom. The instructors will be recording this session. The recording feature for others is disabled so that no one else will be able to record this session through Zoom. No recording by other means is permitted. This session will be posted to a Box folder hosted by UC Merced Library for sharing with workshop instructors, helpers and participants. This recording will not be made publicly available. Recordings will be deleted when no longer necessary. However, the recording may become part of an administrative disciplinary record if misconduct occurs during a videoconference.
+</p>
+<p>
+If you have privacy concerns and do not wish to appear in the recording, do not turn on your video. If you also prefer to use a pseudonym instead of your name, please let us know what name you will be using so that I know who you are during the session. If you would like to ask a question, you may do so privately through the Zoom chat by addressing your chat question to the workshop host (and not to “everyone”). If you have questions or concerns, please contact Data Curation Services Coordinator Derek Devnich at ddevnich@ucmerced.edu. Pursuant to the terms of the agreement between the vendor and UC Merced, the data is used solely for this purpose and the vendor is prohibited from redisclosing this information. UC Merced does not use the data for any other purpose.
+</p>
 
 {% comment %}
 Collaborative Notes
